@@ -148,8 +148,9 @@ footer nav a {
     text-decoration: none;
 }
 
-/*
-    ================ My CSS additions:
+/*  =======================
+    ======================= My CSS:
+    =======================
 */
 
 .middle-content .boxes .box {
@@ -202,8 +203,9 @@ header nav a {
     color: black;
 }
 
-/* 
-    ====================================
+/*  ======================= MOBILE
+    ======================= RESPONSIVE  
+    ======================= DESIGN 
 */
 
 @media(max-width:500px){
@@ -280,7 +282,7 @@ header nav a {
     footer nav a {
         padding-top: 1%;
         padding-bottom: 1%;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
     footer, header, section, div {
         /* border: 1px solid red; */
@@ -302,8 +304,9 @@ header nav a {
     }
 }
 
-/* 
-    ====================================
+/*  =======================
+    ======================= BOXES 
+    ======================= !important 
 */
 
 .ichi {
@@ -335,4 +338,41 @@ header nav a {
 }
 .jyuu {
     background-color: dodgerblue !important;
+}
+
+/*  ======================= * oh, plural
+    ======================= ANIMATIONs
+    ======================= STRETCH 
+*/
+@keyframes sliiiiide {
+    from {
+      margin-left: 100%;
+      width: 250%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+body {
+    animation-duration: 1s;
+    animation-name: sliiiiide;
+}
+
+@keyframes girlycolors {
+    0% {background-color: honeydew;}
+    25% {background-color: mistyrose;}
+    50% {background-color: honeydew;}
+    100% {background-color: thistle;}
+  }
+
+a:hover {
+    animation-name: girlycolors;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    width: 100%;
+    text-align: center;
+    color: black;
 }
