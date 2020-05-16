@@ -208,7 +208,7 @@ header nav a {
 /*  ======================= MOBILE/TABLET
     ======================= RESPONSIVE  
     ======================= DESIGN 
-    * changed to be both since 
+      * changed to be both since 
       I think it's easier to retro 
       all this. -Jamie
 */
@@ -249,6 +249,8 @@ header nav a {
         width: 100%;
         padding-left: 5%;
         font-size: 1rem;
+        /* display: flex;
+        flex-wrap: wrap; */
     }
     .bottom-content{
         width: 95%;
@@ -276,10 +278,10 @@ header nav a {
         /* padding-left: 10%; */
         /* padding-right: 10%; */
         padding: 5% 0% 5% 0%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
+        /* display: flex; */
+        /* flex-direction: row; */
+        /* align-items: flex-end; */
+        /* justify-content: space-around; */
         /* background-color: white; */
         width: 80%;
     }
@@ -302,7 +304,7 @@ header nav a {
 
     .boxes {
         flex-direction: row;
-        width: 40%;
+        width: 300px;
         /* background-color: blue; */
         align-items: center;
         padding: 0;
@@ -317,12 +319,6 @@ header nav a {
     }
 
     
-    .text-container .firstwo {
-        padding-right: 500px;
-    }
-    .last {
-        width: 100%;
-    }
 }
 
 /*  =======================
@@ -399,9 +395,41 @@ a:hover {
     color: black;
 }
 
+/*  ======================= TABLET-ONLY 
+    ======================= * do not touch!
+    ======================= * do naught! 
+*/
+@media(min-width:501px){
+    .bottom-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        /* background-color: blue; */
+    }
+    .firstwo {
+        /* background-color: red; */
+        width: 50% !important;
+    }
+    .last {
+        /* width: 100%; */
+        padding: 0 25% 0 25% !important;
+    }
+    footer nav {
+        display: flex;
+        justify-content: center;
+        /* background-color: red; */
+        width: 100%;
+        
+    }
+    footer nav a {
+        padding: 10px;
+        font-size: 1rem;
+    }
+}
+
 /*  ======================= MOBILE-ONLY 
-    ======================= RESPONSIVE  
-    ======================= DESIGN 
+    ======================= * do not touch!
+    ======================= * do naught! 
 */
 
 @media(max-width:500px){
