@@ -97,7 +97,7 @@ After finishing your required elements, you can push your work further. These go
 * [x] Make your design responsive such that it is accessible on tablet(800 px) and matches the [tablet](design/Tablet.png) wireframe.
 * [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
 * [x] Introduce CSS animations to your site. 
-* [ ] Build a contact page and create a form with several inputs of your choosing
+* [x] Build a contact page and create a form with several inputs of your choosing
 
 ## Resources
 
