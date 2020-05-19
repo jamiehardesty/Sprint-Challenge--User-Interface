@@ -1,11 +1,16 @@
-/* My CSS is added at the end,
-   after a comment -Jamie
+/* =====================================================================
+    My CSS is added at the end,
+    after a comment -Jamie
 
-   - attempted stretches: animations, tablet (last section doesn't drop the 3rd <p> and the footer <nav> isn't centered.
+    - attempted stretches: animations, tablet view
+    - in-progress: about.html
+   =====================================================================
 
    http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
+
+   =====================================================================
 */
 
 html, body, div, span, applet, object, iframe,
@@ -150,9 +155,9 @@ footer nav a {
     text-decoration: none;
 }
 
-/*  =======================
-    ======================= My CSS:
-    =======================
+/*  =======================         =======================
+    ======================= My CSS  =======================
+    =======================         =======================
 */
 
 .middle-content .boxes .box {
@@ -210,9 +215,9 @@ header nav a {
     flex-direction: row;
 }
 
-/*  ======================= MOBILE/TABLET
-    ======================= RESPONSIVE  
-    ======================= DESIGN 
+/*  ======================= MOBILE/TABLET   =======================
+    ======================= RESPONSIVE      =======================
+    ======================= DESIGN          =======================
       * changed to be both since 
       I think it's easier to retro 
       all this. -Jamie
@@ -305,9 +310,9 @@ header nav a {
     
 }
 
-/*  =======================
-    ======================= BOXES 
-    ======================= !important 
+/*  =======================             =======================
+    ======================= BOXES       =======================
+    ======================= !important  =======================
 */
 
 .ichi {
@@ -341,9 +346,9 @@ header nav a {
     background-color: dodgerblue !important;
 }
 
-/*  ======================= * oh, plural
-    ======================= ANIMATIONs
-    ======================= STRETCH 
+/*  ======================= * oh, plural    =======================
+    ======================= ANIMATIONs      =======================
+    ======================= STRETCH         =======================
 */
 @keyframes sliiiiide {
     from {
@@ -379,9 +384,9 @@ a:hover {
     color: black;
 }
 
-/*  ======================= DESKTOP-ONLY 
-    ======================= * do not touch!
-    ======================= * fixxxxessss 
+/*  ======================= DESKTOP-ONLY    =======================
+    ======================= * do not touch! =======================
+    ======================= * fixxxxessss   =======================
 /* */
 /* @media(min-width:801px){
     footer nav {
@@ -392,9 +397,9 @@ a:hover {
     }
 } */
 
-/*  ======================= TABLET-ONLY 
-    ======================= * do not touch!
-    ======================= * do naught! 
+/*  ======================= TABLET-ONLY     =======================
+    ======================= * do not touch! =======================
+    ======================= * do naught!    =======================
 */
 @media (max-width:800px) {
     .bottom-content {
@@ -425,9 +430,9 @@ a:hover {
 } 
 
 
-/*  ======================= MOBILE-ONLY 
-    ======================= * do not touch!
-    ======================= * do naught! 
+/*  ======================= MOBILE-ONLY     =======================
+    ======================= * do not touch! =======================
+    ======================= * do naught!    =======================
 */
 
 @media(max-width:500px){
@@ -477,30 +482,30 @@ a:hover {
         font-size: 1rem;
         padding-bottom: 5%;
     }
-/* FIX */
-    .bottom-content {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        /* background-color: green; */
-        
-    }
-    .firstwo {
-        width: 100% !important;
-        /* background-color: blue; */
-        padding: 0;
-        margin: 0;
-    }
-    .last {
-        width: 100%;
-        /* background-color: red; */
-        padding: 0 0 0 5% !important;
-        margin: 0 !important;
-    }
-    .middle-content {
-        border-bottom: none;
-    }
-/* END OF FIX */
+        /* FIX */
+            .bottom-content {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                /* background-color: green; */
+                
+            }
+            .firstwo {
+                width: 100% !important;
+                /* background-color: blue; */
+                padding: 0;
+                margin: 0;
+            }
+            .last {
+                width: 100%;
+                /* background-color: red; */
+                padding: 0 0 0 5% !important;
+                margin: 0 !important;
+            }
+            .middle-content {
+                border-bottom: none;
+            }
+        /* END OF FIX */
     .top-content h2, .bottom-content h2 {
         font-size: 1.5rem;
     }
