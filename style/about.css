@@ -25,6 +25,32 @@ h3 {
 .middle content h3 {
     align: center;
 }
+form {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.top-content p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+form {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+form input {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.round {
+    border-radius: 50%;
+}
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1px;
+}
 @media(max-width:800px) {
     .container .top-content .text-container {
         margin-right: 3%;
